@@ -335,7 +335,7 @@ header {
 .features-block1-content2 .features-icon,
 .features-block1-content4 .features-icon {
 	margin-left:5%;
-} 
+}
 .features-block1-content3 {
 	width:200px;
 	height:170px;
@@ -650,7 +650,7 @@ header {
 	position:relative;
 	overflow:hidden;
 }
-.portfolio-images .image4 img, 
+.portfolio-images .image4 img,
 .portfolio-images .image5 img,
 .portfolio-images .image6 img{
 	transition:0.3s;
@@ -660,7 +660,7 @@ header {
 .portfolio-images .image6:hover img
 {
 	transform:translateX(100%);
-	transition:0.3s;	
+	transition:0.3s;
 }
 
 /***********TESTIMONIAL*************/
@@ -914,6 +914,8 @@ header {
 	margin-top:6px;
 	box-shadow:0 0 2px 0 black;
 	border:2px solid black;
+	max-height: 80px;
+	max-width: 330px;
 }
 .contact-content label {
 	color:#D9212B;
@@ -1077,7 +1079,7 @@ header {
 #check {
 	position:absolute;
 	top:195px;
-	left:195px;	
+	left:195px;
 }
 #check:checked~ ul {
 	transform:rotate(360deg);
@@ -1141,7 +1143,7 @@ header {
 	margin:50px 0 0 50px;
 }
 .circle-menu li a:hover {
-	background-color:#F6D50F !important;	
+	background-color:#F6D50F !important;
 }
 
 /* Иконки */
@@ -1154,7 +1156,7 @@ header {
 .circle-menu li:nth-child(2) a {
 	background:url("img/footer/vk.png") no-repeat 42% 25%;
 	background-size:40%;
-	background-color:#F6B20F;	
+	background-color:#F6B20F;
 }
 .circle-menu li:nth-child(3) a {
 	background:url("img/footer/youtube.png") no-repeat 42% 25%;
